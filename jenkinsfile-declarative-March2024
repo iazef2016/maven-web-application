@@ -27,10 +27,10 @@ pipeline{
     }
     stage('4.UploadArtifacts'){
     steps{
-       sh "mvn deploy" 
-       sh "echo artifacts uploaded successfully"
-       sh "echo I am now a Build and Release Engineer"
-       sh "echo Build and release completed"
+       //sh "mvn deploy" 
+       //sh "echo artifacts uploaded successfully"
+       //sh "echo I am now a Build and Release Engineer"
+       //sh "echo Build and release completed"
     }
     }
     stage('5.Deploy2UAT'){
