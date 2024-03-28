@@ -25,7 +25,7 @@ pipeline{
      sh "echo CodeQualityAnalysis completed" 
     }
     }
-*/
+/*--*/
    stage('4.UploadArtifacts'){
     steps{
        sh "mvn deploy" 
@@ -87,6 +87,6 @@ Tel: +1 437 215 2483
 
       }
    } 
-/*
+*/
 }
 
