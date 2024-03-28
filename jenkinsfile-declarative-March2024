@@ -25,7 +25,7 @@ pipeline{
      sh "echo CodeQualityAnalysis completed" 
     }
     }
-/*--*/
+/*
    stage('4.UploadArtifacts'){
     steps{
        sh "mvn deploy" 
