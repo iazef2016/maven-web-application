@@ -33,7 +33,6 @@ pipeline{
        sh "echo Build and release completed"
     }
     }
-*/
     stage('5.Deploy2UAT'){
     steps{
         sh "echo Deployment is ready for the client review"
@@ -87,5 +86,4 @@ Tel: +1 437 215 2483
 
       }
    } 
-/*
 }
